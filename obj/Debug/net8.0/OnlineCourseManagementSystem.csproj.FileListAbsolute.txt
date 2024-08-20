@@ -1,0 +1,15 @@
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\bin\Debug\net8.0\OnlineCourseManagementSystem.exe
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\bin\Debug\net8.0\OnlineCourseManagementSystem.deps.json
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\bin\Debug\net8.0\OnlineCourseManagementSystem.runtimeconfig.json
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\bin\Debug\net8.0\OnlineCourseManagementSystem.dll
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\bin\Debug\net8.0\OnlineCourseManagementSystem.pdb
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.AssemblyInfoInputs.cache
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.AssemblyInfo.cs
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.sourcelink.json
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.dll
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\refint\OnlineCourseManagementSystem.dll
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.pdb
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.genruntimeconfig.cache
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\ref\OnlineCourseManagementSystem.dll
