@@ -103,6 +103,7 @@
 // }
 using System;
 using Microsoft.Extensions.DependencyInjection;
+using System.Text.RegularExpressions;
 
 class Program
 {
@@ -174,6 +175,10 @@ class Program
 
         Console.Write("Enter Student Name: ");
         string studentName = Console.ReadLine();
+        if (ContainsDigits(studentName))
+            {
+                throw new InvalidStudentNameException("Student name should not contain digits. Please enter a valid name.");
+            }
         if(InvalidStudentException.ValidNameCheck(studentName))
         Console.Write("Enter Student Email: ");
         string studentEmail = Console.ReadLine();
@@ -206,7 +211,10 @@ class Program
 }
 
 
-
+    static bool ContainsDigits(string input)
+    {
+        return Regex.IsMatch(input, @"\d");
+    }
     static void WithdrawStudent(IEnrollmentService enrollmentService)
     {
         Console.Write("Enter Student Name to Withdraw: ");
