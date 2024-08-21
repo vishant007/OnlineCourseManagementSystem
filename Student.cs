@@ -19,5 +19,7 @@ public class Student {
     {
         return $"Id:{Id} Name:{Name} Email:{Email}";
     }
+    
+    
 
 }
