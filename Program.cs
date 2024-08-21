@@ -174,8 +174,11 @@ class Program
 
         Console.Write("Enter Student Name: ");
         string studentName = Console.ReadLine();
+        if(InvalidStudentException.ValidNameCheck(studentName))
         Console.Write("Enter Student Email: ");
         string studentEmail = Console.ReadLine();
+         if(InvalidStudentException.ValidName(studentEmail))
+
 
         Console.WriteLine("Select Course:");
         var courses = courseService.GetAllCourses().ToList();
