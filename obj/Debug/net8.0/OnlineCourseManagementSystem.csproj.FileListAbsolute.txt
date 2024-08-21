@@ -32,3 +32,7 @@ C:\Users\VishantNileshkumarSh\OnlineCourseManagementSystem\bin\Debug\net8.0\Micr
 C:\Users\VishantNileshkumarSh\OnlineCourseManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\VishantNileshkumarSh\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.csproj.AssemblyReference.cache
 C:\Users\VishantNileshkumarSh\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCo.B181672B.Up2Date
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCourseManagementSystem.csproj.AssemblyReference.cache
+C:\Users\VidhyaSreeChinthalap\source\repos\OnlineCourseManagementSystem\obj\Debug\net8.0\OnlineCo.B181672B.Up2Date
