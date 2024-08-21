@@ -4,6 +4,13 @@
 
 The **Online Course Management System** is a simple C# console application designed to manage course enrollments and withdrawals for students. The project demonstrates the use of Inversion of Control (IoC) and Dependency Injection (DI) to decouple classes and enhance code maintainability. Also exception handling is done por possible exceptions scenarios. The application provides a menu-based interface for users to interact with the system.
 
+## Roles/Team Members:
+
+- **Vishant**: Core Developer responsible for logic building, IoC, Dependency Injection and Exception Handling.
+- **Sunil**: Handled documentation and helped in creating classes and exception handling.
+- **Vidhya Shree**: Focused on documentation and building of classes and methods.
+- **Vinay**: Helped in exception handling and creating methods and classes.
+
 ## Features
 
 - **IoC and DI Implementation**: The project utilizes Microsoft.Extensions.DependencyInjection to manage dependencies, promoting loose coupling between classes.
