@@ -111,19 +111,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VishantNileshkumarSh\\.nuget\\packages\\": {}
+    "C:\\Users\\VinayKumarAndala\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VishantNileshkumarSh\\OnlineCourseManagementSystem\\OnlineCourseManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\VinayKumarAndala\\source\\repos\\OnlineCourseManagementSystem\\OnlineCourseManagementSystem.csproj",
       "projectName": "OnlineCourseManagementSystem",
-      "projectPath": "C:\\Users\\VishantNileshkumarSh\\OnlineCourseManagementSystem\\OnlineCourseManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\VishantNileshkumarSh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VishantNileshkumarSh\\OnlineCourseManagementSystem\\obj\\",
+      "projectPath": "C:\\Users\\VinayKumarAndala\\source\\repos\\OnlineCourseManagementSystem\\OnlineCourseManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\VinayKumarAndala\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VinayKumarAndala\\source\\repos\\OnlineCourseManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\VishantNileshkumarSh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VinayKumarAndala\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -165,6 +165,7 @@ class Program
         Console.Write("Enter Student Id: ");
         int studentId = int.Parse(Console.ReadLine());
 
+
         // Check if the student ID already exists
         var existingEnrollment = enrollmentService.GetEnrollments().FirstOrDefault(e => e.student.Id == studentId);
         if (existingEnrollment != null)
@@ -174,9 +175,11 @@ class Program
 
         Console.Write("Enter Student Name: ");
         string studentName = Console.ReadLine();
+        if(InvalidStudentException.ValidNameCheck(studentName))
+        
         Console.Write("Enter Student Email: ");
         string studentEmail = Console.ReadLine();
-
+        if(InvalidStudentException.ValidName(studentEmail))
         Console.WriteLine("Select Course:");
         var courses = courseService.GetAllCourses().ToList();
         for (int i = 0; i < courses.Count; i++)
@@ -196,10 +199,15 @@ class Program
         Console.WriteLine($"Error: {ex.Message}");
         Console.WriteLine("Please try enrolling with a different Student ID.");
     }
+    catch(InvalidStudentException ez){
+        System.Console.WriteLine(ez.Message);
+    }
     catch (Exception ex)
     {
         Console.WriteLine($"An unexpected error occurred: {ex.Message}");
     }
+    
+
 }
 
 
