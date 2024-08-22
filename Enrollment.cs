@@ -35,19 +35,7 @@ public class Enrollment : Course
     /// <summary>
     /// Displays the mode of the course as online.
     /// </summary>
-    public void OnlineCourse()
-    {
-        base.CourseMode();
-        System.Console.WriteLine("Online Course");
-    }
-    /// <summary>
-    /// Displays the mode of the course as offline.
-    /// </summary>
-    public void OfflineCourse()
-    {
-        base.CourseMode();
-        System.Console.WriteLine("Offline Course");
-    }
+    
     /// <summary>
     /// Returns a string that represents the current object.
     /// </summary>
