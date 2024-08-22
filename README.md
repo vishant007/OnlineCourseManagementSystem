@@ -8,7 +8,7 @@ The **Online Course Management System** is a simple C# console application desig
 
 - **Vishant**: Core Developer responsible for logic building, IoC, Dependency Injection and Exception Handling.
 - **Sunil**: Handled documentation and helped in creating classes and exception handling.
-- **Vidhya Shree**: Focused on documentation and building of classes and methods.
+- **Vidhya Sree**: Focused on documentation and building of classes and methods.
 - **Vinay**: Helped in exception handling and creating methods and classes.
 
 ## Features
