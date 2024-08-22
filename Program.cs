@@ -159,6 +159,11 @@ class Program
             }
         }
     }
+    /// <summary>
+    /// Enrolls a student in a course using the provided course and enrollment services.
+    /// </summary>
+    /// <param name="courseService">The service to manage courses.</param>
+    /// <param name="enrollmentService">The service to manage enrollments.</param>
     static void EnrollStudent(ICourseService courseService, IEnrollmentService enrollmentService)
 {
     try
@@ -192,12 +197,14 @@ class Program
             Console.WriteLine($"{i + 1}. {courses[i].CourseName}");
         }
         int courseChoice = int.Parse(Console.ReadLine());
-
+        if(CourseNotFoundException.SelectCourse(courseChoice))
+        {
         var selectedCourse = courses[courseChoice - 1];
         var newStudent = new Student { Id = studentId, Name = studentName, Email = studentEmail };
 
         enrollmentService.EnrollStudent(newStudent, selectedCourse);
         Console.WriteLine($"{newStudent.Name} has been enrolled in {selectedCourse.CourseName}.");
+        }
     }
     catch (DuplicateStudentIdException ex)
     {
@@ -215,13 +222,20 @@ class Program
     {
         return Regex.IsMatch(input, @"\d");
     }
+    /// <summary>
+    /// Withdraws a student from enrollment using the provided enrollment service.
+    /// </summary>
+    /// <param name="enrollmentService">The service to manage enrollments.</param>
     static void WithdrawStudent(IEnrollmentService enrollmentService)
     {
         Console.Write("Enter Student Name to Withdraw: ");
         string studentName = Console.ReadLine();
         enrollmentService.WithdrawStudent(studentName);
     }
-
+    /// <summary>
+    /// Displays all enrollments using the provided enrollment service.
+    /// </summary>
+    /// <param name="enrollmentService">The service to manage enrollments.</param>
     static void DisplayEnrollments(IEnrollmentService enrollmentService)
     {
         var enrollments = enrollmentService.GetEnrollments();
