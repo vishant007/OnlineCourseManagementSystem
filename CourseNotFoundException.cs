@@ -5,7 +5,7 @@ public class CourseNotFoundException:Exception
     {}   
     public static bool SelectCourse(int n)
     {
-        if(n!=1 ||n!=2)
+        if(n>2)
             throw new CourseNotFoundException("Course Not Found");
         return true;
     }
